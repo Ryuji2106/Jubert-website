@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="WEB.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="front-page">
+            <div class="intro">
+                <img src="uwu4.jpg" alt="My Profile Picture" class="profile-pic">
+                <h1>Hello!</h1>
+                <p>Welcome to my personal portfolio!</p>
+                <p>Hi, I'm John Robert Del Mundo. I'm an Information Technology student, and I'm learning how to create websites.</p>
+                <p>I am currently 18 years old and I live in San Francisco, Magalang Pampanga.</p>
+                <p>When I have my free time, I enjoy <strong>watching anime, k-drama,</strong> <strong>and playing some online games.</strong></p>
+                <p>I have a Dream, to help my Family and have a peaceful life with them.</p>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements">
+            <h2>My Achievements</h2>
+            <div class="achievement-grid">
+                <img src="uwu.jpg" alt="Achievement 1">
+                <img src="uwu1.jpg" alt="Achievement 2">
+                <img src="uwu2.jpg" alt="Achievement 3">
+                <img src="uwu3.jpg" alt="Achievement 4">
+                </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact-box">
+              <h2>Contact Me</h2>
+              <ul class="contact-list">
+                <li><a href="https://www.instagram.com/r_i_e_z_e/profilecard/?igsh=MWRrMHo4NGtxc2l2eQ==">Instagram</a></li>
+                <li><a href="https://www.facebook.com/share/1Y5RCoaj7T/" target="_blank">Facebook</a></li>
+                <li><a href="https://github.com/Ryuji2106" target="_blank">GitHub</a></li>
+              </ul>
+            </div>
+          </section>
+          
+    </main>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        body {
+          font-family: sans-serif;
+          margin: 20px;
+        }
+        .contact-section {
+          border: 1px solid #ccc;
+          padding: 20px;
+          border-radius: 5px;
+        }
+        .form-group {
+          margin-bottom: 15px;
+        }
+        label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+          width: calc(100% - 12px);
+          padding: 8px;
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          box-sizing: border-box;
+        }
+        textarea {
+          resize: vertical;
+        }
+        button {
+          background-color: #007bff;
+          color: white;
+          padding: 10px 15px;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+        button:hover {
+          background-color: #0056b3;
+        }
+        #message-status {
+          margin-top: 10px;
+          font-weight: bold;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have a question or want to get in touch? Send me a message!</p>
+    
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+    
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+    
+        <button onclick="sendMessage()">Send Message</button>
+    
+        <div id="message-status"></div>
+    
+        <h3>Or Email me Directly:</h3>
+        <p><a href="mailto:djohnrobert73@gmail.com">djohnrobert73@gmail.com</a></p>
+      </div>
+    </body>
+
+    <footer>
+        <p>&copy; 2025, All rights reserved.</p>
+    </footer>
+
+    <script src="WeB.js"></script>
+</body>
+</html>
